@@ -1,3 +1,3 @@
 # Examples:
-git clone https://github.com/H1R0GH057/Anonymous.git
-git clone https://github.com/alpinelinux/alpine-chroot-install.git
+https://github.com/H1R0GH057/Anonymous.git
+https://github.com/alpinelinux/alpine-chroot-install.git
