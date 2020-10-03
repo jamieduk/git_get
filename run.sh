@@ -26,7 +26,7 @@ smbclient "//$server/$share" -c "lcd $path; cd Directory; get $filename" -U $use
 #cd $installpath
 if [ ! -e "$filename" ]; then
     echo "File does not exist"
-    echo "FallBack Activated!"
+    echo "FallBack Mode Activated!"
     wget $fallback
 else 
     
