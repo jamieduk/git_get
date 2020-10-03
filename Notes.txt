@@ -1,6 +1,46 @@
+git_get
+
+
+
+https://github.com/jamieduk/git_get
+
+
+
 ./run.sh to run every line of text file as a command this will clone all repos from GITHUB.txt file
+
 weather from a smb share or online raw github file if required as a fallback!
 
+
+
+
+
+
+
+Get the Gits Via 1 Text File read by kali and other linux via script Uses an SMB Windows share called NETWORK but you can change that if you want! For more info goto Notes.txt file!
+
+
+
+visit 
+
+jnet.sytes.net
+
+
+
+Forum Link
+
+https://jnet.forumotion.com/t1714-git-get-for-github-it-downloads-github-repos-auto-with-bash
+
+
+
+Radio 
+
+Radio2020.ddns.net
+
+
+
+Github
+
+https://github.com/jamieduk/git_get
 
 
 
