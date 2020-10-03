@@ -24,15 +24,6 @@ smbclient "//$server/$share" -c "lcd $path; cd Directory; get $filename" -U $use
 #cd $installpath
 while IFS="" read -r p || [ -n "$p" ]
 do
+  git clone $p
 
-  printf '%s\n' "$p"
- 
 done < $filename
-#
-for i in $(cat $filename)
-do
-
-    $1 # sudo git clone $i 
-done
-#
-# rm $filename
