@@ -29,13 +29,12 @@ if [ ! -e "$filename" ]; then
     echo "FallBack Mode Activated!"
     wget $fallback
 else 
-    
+    echo "File Found!"
 fi 
 
 while IFS="" read -r p || [ -n "$p" ]
 do
-  git clone $p
-  
+  $p # git clone   
 done < $filename
 #
 echo "All Commands Have Been Ran!"
