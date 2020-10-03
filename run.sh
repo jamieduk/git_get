@@ -15,6 +15,8 @@ share="NETWORK" # Share Name
 filename="GITHUB.txt" # File Name
 path="/home/$USER/Documents/Scripts/BASH/Get_Git/" # Path to copy filename to.
 installpath="/home/$USER/Documents/Scripts/"
+fallback="https://raw.githubusercontent.com/jamieduk/git_get/main/GITHUB.txt"
+#
 echo "Welcome To Git Get By J~Net 2020 jnet.sytes.net"
 echo "Copying File Over Ready For DL"
 echo ""
@@ -27,3 +29,34 @@ do
   git clone $p
 
 done < $filename
+while IFS="" read -r p || [ -n "$p" ]
+
+do
+
+  git clone $p
+
+  
+
+done < $filename
+
+#
+
+if [ ! -e "$filename" ]; then
+
+    echo "File does not exist"
+
+    echo "FallBack Activated!"
+
+    wget $fallback
+
+else 
+
+    echo "All COmmands Have Been Ran!"
+
+fi 
+
+
+
+#
+
+# rm $filename
