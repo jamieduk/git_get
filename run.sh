@@ -30,33 +30,20 @@ do
 
 done < $filename
 while IFS="" read -r p || [ -n "$p" ]
-
 do
-
   git clone $p
-
   
-
 done < $filename
-
 #
-
 if [ ! -e "$filename" ]; then
-
     echo "File does not exist"
-
     echo "FallBack Activated!"
-
     wget $fallback
-
 else 
 
-    echo "All COmmands Have Been Ran!"
+    echo "All Commands Have Been Ran!"
 
-fi 
-
-
-
+fi
 #
 
 # rm $filename
