@@ -2,7 +2,8 @@ git_get
 
 
 
-https://github.com/jamieduk/git_get
+git clone https://github.com/jamieduk/git_get.git
+
 
 
 
@@ -10,7 +11,16 @@ https://github.com/jamieduk/git_get
 
 weather from a smb share or online raw github file if required as a fallback!
 
+network_run.sh for smb and run.sh is now just for getting entries from GITHUB.txt file!
 
+It will DL all repos to current folder so make sure location is correct inside the filee your running
+
+
+sudo chmod +x *.sh
+
+edit GITHUB.txt and run ./run.sh
+
+or network.sh for smb resource copying!
 
 
 
